@@ -1,0 +1,54 @@
+{
+    "game_title": "Koniec leta!",
+    "questions": [
+        {
+            "id": 1,
+            "text": "Aké písmeno sa nachádza na strome",
+            "answer": "L",
+            "solved_text": "hola hej" ,
+            "read_more": "Genesis 12:1-4: Boh povolal Abrama, aby opustil svoju domovinu a šiel do krajiny, ktorú mu ukáže. Toto bola veľká zmena pre Abrama, ktorý musel opustiť všetko, čo poznal. Napriek neistote Abram dôveroval Bohu a poslúchol ho, čo neskôr viedlo k tomu, že sa stal otcom mnohých národov."
+        },
+        {
+            "id": 2,
+            "text": "Na stlpiku sa nachádza číslo. Aké je toto číslo?",
+            "answer": "7",
+            "solved_text": "",
+            "read_more": ""
+        },
+        {
+            "id": 3,
+            "text": "Aké písmeno sa nachádza na tomto mieste?",
+            "answer": "W",
+            "solved_text": "",
+            "read_more": ""
+        },
+        {
+            "id": 4,
+            "text": "Aké písmeno sa nachádza na strome",
+            "answer": "P",
+            "solved_text": "",
+            "read_more": ""
+        },
+        {
+            "id": 5,
+            "text": "Na značke sa nachádza číslo. Aké je toto číslo?",
+            "answer": "3",
+            "solved_text": "",
+            "read_more": ""
+        },
+        {
+            "id": 6,
+            "text": "Aké písmeno sa nachádza na tomto mieste?",
+            "answer": "K",
+            "solved_text": "",
+            "read_more": ""
+        },
+        {
+            "id": 7,
+            "text": "Aké číslo sa nachádza na tomto mieste?",
+            "answer": "111",
+            "solved_text": "",
+            "read_more": ""
+        }
+    ]
+}
