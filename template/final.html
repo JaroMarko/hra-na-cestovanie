@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Cesta!</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body class="bg-gray-400 p-4 font-sans flex flex-col gap-8">
+		<div>
+			<p class="text-center text-gray-500 italic">otázka</p>
+			<h1 class="w-full text-center text-2xl">Zo získaných číslic, zložte kód, ktorý vás privedie do cieľa.</h1>
+			<p class="text-center">vytvorte vzostupný rad číslic a presuňte všetky číslice 4x o jedno doprava</p>
+		</div>
+		<form class="w-full flex flex-col gap-4">
+			<div class="flex gap-4">
+				<input type="text" id="input1" class="w-1/5 bg-gray-300 rounded-xl py-2 px-4 text-center" />
+				<input type="text" id="input2" class="w-1/5 bg-gray-300 rounded-xl py-2 px-4 text-center" />
+				<input type="text" id="input3" class="w-1/5 bg-gray-300 rounded-xl py-2 px-4 text-center" />
+				<input type="text" id="input4" class="w-1/5 bg-gray-300 rounded-xl py-2 px-4 text-center" />
+				<input type="text" id="input5" class="w-1/5 bg-gray-300 rounded-xl py-2 px-4 text-center" />
+			</div>
+			<div onclick="check()" value="odoslat" class="bg-slate-500 text-white py-1 px-8 rounded-xl mx-auto block cursor-pointer text-center">odoslať</div>
+		</form>
+
+		<h3 id="chyba" class="hidden text-center text-xl text-red-600 font-bold">Chyba v odpovedi! <br />skús to znovu</h3>
+
+		<script>
+			function check() {
+				let input1 = document.getElementById('input1').value;
+				let input2 = document.getElementById('input2').value;
+				let input3 = document.getElementById('input3').value;
+				let input4 = document.getElementById('input4').value;
+				let input5 = document.getElementById('input5').value;
+				if (input1 === '1' && input2 === '3' && input3 === '7' && input4 === '9' && input5 === '0') {
+					window.location.href = 'final-place.html';
+				} else {
+					document.getElementById('chyba').classList.remove('hidden');
+				}
+			}
+		</script>
+	</body>
+</html>
